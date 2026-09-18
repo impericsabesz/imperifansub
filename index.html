@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperifansub - Anime Feliratok</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff4757;
+        }
+        h1 {
+            margin: 0;
+            color: #ff4757;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .intro {
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 5px solid #ff4757;
+        }
+        .anime-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .anime-card {
+            background-color: #1f1f1f;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #2f2f2f;
+            transition: transform 0.2s;
+        }
+        .anime-card:hover {
+            transform: translateY(-5px);
+            border-color: #ff4757;
+        }
+        .anime-info {
+            padding: 15px;
+        }
+        .anime-title {
+            margin: 0 0 10px 0;
+            font-size: 1.3rem;
+            color: #ffffff;
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #ff4757;
+            color: white;
+            font-size: 0.8rem;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .btn-link {
+            display: block;
+            text-align: center;
+            background-color: #2f2f2f;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .btn-link:hover {
+            background-color: #ff4757;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>IMPERIFANSUB</h1>
+        <p>Minőségi anime feliratok közvetlenül a fordítótól</p>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h2>Üdvözöllek az oldalamon!</h2>
+            <p>Itt találhatod meg az általam fordított anime sorozatokat. A feliratok angol forrás alapján, az időzítések megtartásával készülnek.</p>
+        </div>
+
+        <h2>Projektjeink</h2>
+        <div class="anime-grid">
+            
+            <!-- ELSŐ ANIME KÁRTYA (Ezt fogjuk majd testreszabni) -->
+            <div class="anime-card">
+                <div class="anime-info">
+                    <span class="status">FORDÍTÁS ALATT</span>
+                    <h3 class="anime-title">Első Anime Projektem</h3>
+                    <p>Ide jön majd a sorozat rövid leírása, hogy miről szól az anime.</p>
+                    <a href="#" class="btn-link">Online Nézés / Letöltés</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
